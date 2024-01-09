@@ -1,10 +1,9 @@
-const Welcome = () => {
-    return (
-        <div className="bg-secondary d-flex flex-column align-items-center p-5">
-            <h1>Welcome to EpiBooks!</h1>
-            <p>We list books</p>
-        </div>
-    )
-}
+import { Alert } from 'react-bootstrap'
 
-export default Welcome;
+const Welcome = () => (
+  <Alert className="text-center">
+    <h1>Benvenuti in EpiBooks!</h1>
+  </Alert>
+)
+
+export default Welcome
